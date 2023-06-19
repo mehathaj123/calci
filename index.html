@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Calculator Application</title>
+</head>
+<body>
+    <center><h1>CALCULATOR</h1></center>
+<div class="calci">
+    <div class="values">
+        <input type="number" placeholder="Enter the first number" id="n1"><br><br>
+         <!-- <input type="number" placeholder="Enter second number" id="n2"><br><br> -->
+    </div>
+    <div id="result">Result</div><br><br>
+    <center><div id="wait">wait</div></center>
+    <div class="button">
+        <input type="submit" value="add" id="add" onclick="add()">
+        <input type="submit" value="sub" id="sub" onclick="sub()">
+        <input type="submit" value="mul" id="mul" onclick="mul()">
+        <input type="submit" value="div" id="div" onclick="div()">
+    </div>
+    <!-- <center><div id="result">result</div></center> -->
+
+    <center><div class="end">
+        <input class="button1" type="submit" value="=" class="reload" id="answer">
+        <input class="button1" type="submit" value="reload" class="reload" onclick="window.location.reload()">
+    </div></center>
+    <!-- <div class="end">
+        <
+    </div> -->
+</div>
+    <script src="design.js"></script>
+     <!-- dom-document object module
+    1.getElementbyId()
+    2.getElementbyClassName()
+    3.getElementbyTagName() -->
+</body>
+</html>
